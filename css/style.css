@@ -80,21 +80,6 @@ p{
 
 }
 
-@media (max-widht:1400px) { 
-    ....
-    }
-
- @media (max-widht:640px) { 
-    ....
-    }
-
-@media (max-widht:768px) { 
-    ....
-    }
-    
-@media (max-widht:1200px) { 
-    ....
-    }
 
  @keyframes gradientMove {
     0% { background-position: 0% 50%; }
