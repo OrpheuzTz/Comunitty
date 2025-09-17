@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+   
+}
+body {
+    background-image: url(img/background.png) ;
+    color: blanchedalmond;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
+}
+h1{
+    font-family: capth;
+    text-align: center; 
+    margin: 20px 0;
+    padding: 20px;
+}
+
+.fonte1{
+    font-family: Pixel;
+}
+p{
+    font-size: 26px;
+    line-height: 1.5;
+    margin-top: 10px;
+    text-align: center;
+    padding: 20px 80px;
+}
+#lista{ 
+    border: 2px solid blanchedalmond;
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    font-size: 25px;
+    gap: 15px;
+    font-family:Brogte;
+    
+}
+.botoes{
+    display: flex;
+     width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+    font-size: 25px;
+    gap: 15px;
+    
+}
+@font-face {
+    font-family: capth;
+    src: url("font/CAPTH___.ttf");
+    
+}
+@font-face {
+    font-family: Pixel;
+    src: url("font/determination.ttf");
+
+}
+@font-face {
+    font-family: Brogte;
+    src: url("font/Brogte.otf");
+}
+
+.botao{
+    background: linear-gradient(270deg, #ff0080, #7928ca, #2af598);
+    background-size: 600% 600%;
+    animation: gradientMove 5s ease infinite;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+@media (max-widht:1400px) { 
+    ....
+    }
+
+ @media (max-widht:640px) { 
+    ....
+    }
+
+@media (max-widht:768px) { 
+    ....
+    }
+    
+@media (max-widht:1200px) { 
+    ....
+    }
+
+ @keyframes gradientMove {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+
+
+
+
+
+
+
+}
+
